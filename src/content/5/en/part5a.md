@@ -11,7 +11,7 @@ lang: en
 In the last two parts, we have mainly concentrated on the backend, and the frontend does not yet support the user management we implemented to the backend in part 4.
 
 
-At the moment the frontend shows existing notes, and lets users change the state of a note from important to not important and vice versa. New notes cannot be added anymore because of the changes made to the backend in part 4: the backend now expects that a token verifying a user's identity is sent with the new note. 
+At the moment the frontend shows existing notes, and lets users change the state of a note from important to not important and vice versa. New notes cannot be added any more because of the changes made to the backend in part 4: the backend now expects that a token verifying a user's identity is sent with the new note. 
 
 
 We'll now implement a part of the required user management functionality to the frontend. Let's begin with user login. Throughout this part we will assume that new users will not be added from the frontend. 
