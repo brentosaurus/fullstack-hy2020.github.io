@@ -313,7 +313,7 @@ React documentation says the [following](https://reactjs.org/docs/lifting-state-
 > <i>Often, several components need to reflect the same changing data. We recommend lifting the shared state up to their closest common ancestor.</i>
 
 <!-- Jos mietitään lomakkeiden tilaa, eli esimerkiksi uuden muistiinpanon sisältöä sillä hetkellä kun muistiinpanoa ei vielä ole luotu, ei komponentti _App_ oikeastaan tarvitse niitä mihinkään, ja voisimme aivan hyvin siirtää tilan lomakkeisiin liittyvän tilan niitä vastaaviin komponentteihin. -->
-If we think about the state of the forms, so for example the contents of a new note before it has been created, the _App_ component does not actually need it for anything. 
+If we think about the state of the forms, for example the contents of a new note before it has been created, the _App_ component does not actually need it for anything. 
 We could just as well move the state of the forms to the corresponding components. 
 
 <!-- Muistiinpanosta huolehtiva komponentti muuttuu seuraavasti: -->
